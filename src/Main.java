@@ -10,7 +10,7 @@ public class Main {
             System.out.println(result);
         } catch (ExceptionCalc e) {
             System.out.println(e.getMessage());
-//            e.printStackTrace();
+            e.printStackTrace();
         }
     }
 
